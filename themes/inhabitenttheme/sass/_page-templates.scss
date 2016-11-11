@@ -1,0 +1,163 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+// Adventures in front page
+
+.img1 {
+background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("../../images/canoe-girl-768x512.jpg") center/cover;
+height: 540px;
+}
+
+.img2 {
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("../../images/beach-bonfire-768x512.jpg") center/cover;
+  height: 250px;
+}
+
+.img3 {
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)),url("../../images/mountain-hikers-768x512.jpg") center/cover;
+  height: 270px;
+}
+.img4 {
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.4)),url("../../images/night-sky-768x512.jpg") center/cover;
+  height: 270px;
+
+}
+
+.full-flex {
+display:flex;
+// justify-content: space-between;
+ul {
+  padding-left: 0;
+  margin-left: 20px;
+}
+li {
+
+}
+}
+.full {
+  width: 50%;
+  height: 100;
+}
+.half-flex {
+flex-direction: column;
+width:50%;
+height:100%;
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  left:0;
+}
+li {
+  margin-bottom: 20px;
+}
+
+
+}
+.half {
+  height: 50%;
+  img {
+  object-fit: cover;
+}
+}
+.quarter-flex {
+  display:flex;
+justify-content: space-around;
+li:nth-child(2){
+  margin-right: 0;
+  margin-left: 10px;
+
+}
+li:nth-child(1){
+  margin-right: 10px;
+}
+}
+.quarter {
+  width:50%;
+
+}
+ul {
+  list-style-type: none;
+}
+.adventures-area {
+margin-bottom: 4.5rem;
+}
+.img3 {
+}
+.story-wrapper {
+  position: relative;
+
+}
+.story-info {
+  margin: 1.5rem;
+  position: absolute;
+color: #fff;
+font-family: 'merriweather',serif;
+h3 {
+  font-weight: 400;
+
+}
+}
+.entry-title {
+a{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.75rem;
+  font-weight: 400;
+
+}
+}
+h2{
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+  text-align: center;
+  line-height: 1.25;
+}
+// Journals area
+.latest-journal {
+  margin-bottom: 4.5rem;
+}
+
+.journal-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  li {
+    border:1px solid #e1e1e1;
+    flex: 0 1 32%;
+  }
+}
+.thumbnail-wrapper {
+background-color: #e1e1e1;
+  img{
+  height: 250px;
+  position: relative;
+}}
+
+
+// shop-cards
+.shop-cards {
+  margin-bottom: 4.5rem;
+}
+.products-box {
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.product-wrap {
+  border: 1px solid #e1e1e1;
+  border-top: 5px solid #e1e1e1;
+  flex:0 1 23.5%;
+  img {
+    height: 70px;
+    width: 70px;
+  }
+  p {
+    margin: 1.5rem;
+  }
+}

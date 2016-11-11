@@ -1,0 +1,46 @@
+.site-header {
+	position: fixed;
+	top: 30px;
+	width: 100%;
+	background-color: rgba( 225, 225, 225, 0.7);
+	padding: 0.5rem 0;
+	display: flex;
+	.container {
+		display: flex;
+	}
+}
+
+.hero-area {
+	background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("../../images/home-hero.jpg");
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.tent-logo {
+	position: fixed;
+	top: 30px;
+	width: 50px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1120px;
+}
+
+.site-branding{
+}
+
+.main-navigation {
+	font-family: 'merriweather';
+	text-transform: uppercase;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu li{
+padding: 0 .75rem;
+a {
+	color: #248A83;
+}
+}
