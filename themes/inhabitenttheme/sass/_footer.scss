@@ -3,11 +3,34 @@
   height: 500px;
 }
 .footer-info {
-
+display:flex;
+}
+.footer-item {
+  margin: 3rem 0;
+  width: 25%;
+  margin-right: 1.5rem;
+  p {
+    color: white;
+  }
 }
 .days-info {
 
 }
-.footer-logo {
-  
+.footer-item {
+margin: 3rem 0;
+h3 {
+  color: #d99054;
+}
+}
+.site-info {
+  text-align: center;
+  text-transform: uppercase;
+  p{
+  padding: 1.5rem 0;
+  bottom: 1.5rem;
+  color: white;
+}
+}
+.logo img{
+  text-align: right;
 }
