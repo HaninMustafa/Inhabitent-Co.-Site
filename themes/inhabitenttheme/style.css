@@ -594,6 +594,10 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.widget-area {
+  width: 30%;
+  padding-left: 3rem; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -631,6 +635,23 @@ a {
 
 .bypostauthor {
   display: block; }
+
+/*********************journals *****************/
+.site-content {
+  display: -ms-flexbox;
+  display: flex;
+  width: 1120px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.content-area {
+  width: 70%;
+  padding: 3rem;
+  border-right: 1px solid #e1e1e1; }
+
+.hentry {
+  margin-bottom: 4.5rem; }
 
 /*--------------------------------------------------------------
 # Media
