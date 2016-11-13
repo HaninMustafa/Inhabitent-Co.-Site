@@ -443,6 +443,21 @@ textarea {
 a:visited {
   color: white; }
 
+/*comment area */
+.entry-footer {
+  text-transform: uppercase; }
+  .entry-footer .cat-links {
+    margin-right: 1.7rem; }
+  .entry-footer a {
+    color: #248a83; }
+
+.black-btn {
+  border: 1px solid black;
+  color: black;
+  font-size: .9rem;
+  text-transform: uppercase;
+  padding: .75rem 1.5rem; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -698,13 +713,12 @@ a {
   max-width: 75%;
   top: 0;
   background-color: #248a83;
-  text-align: left; }
+  text-align: left;
+  text-transform: uppercase; }
   .entry-title-journal a {
     text-decoration: none;
-    color: white;
     font-size: 2rem;
-    line-height: 1.25;
-    text-transform: uppercase; }
+    line-height: 1.25; }
 
 .entry-meta-journal {
   position: absolute;
