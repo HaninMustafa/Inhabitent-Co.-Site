@@ -1209,3 +1209,6 @@ h2.entry-title-product {
   width: 0;
   white-space: nowrap;
   content: "................................         "; }
+
+.taxonomy-description {
+  margin: 3rem auto; }
