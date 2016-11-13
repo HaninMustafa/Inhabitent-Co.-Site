@@ -88,3 +88,40 @@ a:visited {
 	text-transform: uppercase;
 	padding: .75rem 1.5rem;
 }
+.comments-area h2 {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.social-buttons {
+	margin-bottom: 3rem;
+}
+.comment-author-avatar {
+margin-right: 20px;
+img{
+	border-radius: 50%;
+}}
+.comment-body {
+	display: flex;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.comment {
+	padding-top: 1.5rem;
+}
+.comment-author .fn {
+font-weight: 700;
+font-style: normal;
+}
+.comment-metadata {
+	color: grey;
+	margin-bottom: 10px;}
+	.comment-content a {
+		color: #248a83;
+	
+}
+.comment-reply-link {
+	color: #248a83;
+
+}
