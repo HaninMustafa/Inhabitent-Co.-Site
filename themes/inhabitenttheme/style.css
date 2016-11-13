@@ -660,6 +660,35 @@ a {
   text-transform: uppercase;
   text-decoration: none; }
 
+.entry-header {
+  position: relative; }
+
+.entry-title {
+  position: absolute;
+  left: 0;
+  margin-top: 2.3rem;
+  padding: .75rem 1.5rem;
+  max-width: 75%;
+  top: 0;
+  background-color: #248a83;
+  text-align: left; }
+  .entry-title a {
+    font-size: 2rem;
+    line-height: 1.25;
+    text-transform: uppercase; }
+
+.entry-meta {
+  position: absolute;
+  background-color: #248a83;
+  bottom: 6.6px;
+  right: 0;
+  text-transform: uppercase;
+  color: white;
+  padding: .4rem 1.5rem; }
+
+.wp-post-image {
+  width: 100%; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
