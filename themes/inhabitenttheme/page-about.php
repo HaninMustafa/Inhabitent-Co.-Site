@@ -17,7 +17,7 @@ get_header(); ?>
      </div>
    </div>
 
-     <div class="about-content">
+     <div class="about-content container">
        <section class="">
            <h1 class="title">Our story</h1>
            <?php echo CFS()->get( 'our_story' ); ?>
