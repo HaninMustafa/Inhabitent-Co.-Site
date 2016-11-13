@@ -721,7 +721,8 @@ a {
     display: -ms-flexbox;
     display: flex; }
   .widget-area i {
-    margin-right: 10px; }
+    margin-right: 10px;
+    line-height: 1.5; }
 
 .widget-title {
   text-align: left;
@@ -1107,8 +1108,23 @@ h2 {
   text-align: right; }
 
 .about-hero {
+  z-index: -1;
   height: 100vh;
-  background-size: cover; }
+  background: no-repeat center bottom;
+  background-size: cover,cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.entry-title {
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%) cover cover; }
+
+.hero-wrap {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); }
 
 .about-content {
   width: 800px;

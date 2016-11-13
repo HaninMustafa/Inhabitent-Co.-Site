@@ -9,16 +9,16 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
-    <div class="about-hero">
 
-</div>
-
-    <div class="about-content">
      <?php while ( have_posts() ) : the_post(); ?>
+       <div class="hero-wrap">
+       <div class="about-hero" style="linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4))">
        <?php get_template_part( 'template-parts/content', 'page' ); ?>
+     </div>
+   </div>
 
+     <div class="about-content">
        <section class="">
-
            <h1 class="title">Our story</h1>
            <?php echo CFS()->get( 'our_story' ); ?>
 
