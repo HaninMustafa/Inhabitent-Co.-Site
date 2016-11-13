@@ -466,6 +466,8 @@ a:visited {
 
 .social-buttons {
   margin-bottom: 3rem; }
+  .social-buttons i {
+    margin-right: 10px; }
 
 .comment-author-avatar {
   margin-right: 20px; }
@@ -494,6 +496,71 @@ a:visited {
 
 .comment-reply-link {
   color: #248a83; }
+
+.comment-reply-title {
+  font-size: 2rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.logged-in-as a {
+  display: none; }
+
+.comment_notes_before p {
+  display: block; }
+
+.comment-form-comment {
+  font-size: 1.2rem;
+  text-transform: uppercase; }
+  .comment-form-comment label {
+    margin-bottom: 2rem;
+    color: #2f1339; }
+  .comment-form-comment textarea {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    margin-top: 1.6rem; }
+
+.comment-form-author {
+  float: left;
+  width: 49%;
+  text-transform: uppercase;
+  display: block;
+  margin-right: 1%; }
+
+span.required {
+  color: #d99054; }
+
+input#author, input#url, input#email {
+  color: #666;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  margin-top: 1.6rem;
+  width: 100%; }
+
+.comment-form-email {
+  float: left;
+  width: 49%;
+  text-transform: uppercase;
+  display: block;
+  margin-left: 1%; }
+
+.comment-form-url {
+  clear: left; }
+  .comment-form-url label {
+    display: block; }
+
+input#submit.submit {
+  background-color: #248a83;
+  color: white;
+  cursor: pointer;
+  padding: .75% 1.5%;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 300; }
 
 /*--------------------------------------------------------------
 # Navigation
