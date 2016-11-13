@@ -30,4 +30,46 @@ a{
 .product-grid-item {
   border: 1px solid #e1e1e1;
   max-width: 23%;
+  margin-bottom: 2rem;
+}
+.img-wrap-product {
+  background-color: #e1e1e1;
+  height:250px;
+img{
+height:245px;
+overflow: hidden;}
+}
+.entry-title-product{
+  display: inline;
+  color:black;
+  float: left;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+h2.entry-title-product {
+  margin-top: 0;
+  padding-right: .3rem;
+  margin-bottom: 0;
+  text-align: left;
+  line-height: 1.7;
+}
+.product-info{
+  padding: .75rem 1.5rem;
+
+}
+.price {
+  float: right;
+  padding-left: .2rem;
+  background: white;
+}
+
+
+
+.entry-title-product:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ "................................         "
 }
