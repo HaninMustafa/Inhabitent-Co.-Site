@@ -37,13 +37,12 @@
 	text-transform: uppercase;
 }
 
-a {
-	color: #248a83;
-	text-decoration: none;
-}
 
 .widget {
 	margin-bottom: 4rem;
+	a {
+		color: #248a83;
+	}
 	ul {
 		padding-left: 0;
 		margin-left: 0;
@@ -51,4 +50,8 @@ a {
 }
 .day-of-week {
 	font-weight: 700;
+}
+a {
+
+	text-decoration: none;
 }

@@ -610,18 +610,19 @@ a {
   font-size: 1.5rem;
   text-transform: uppercase; }
 
-a {
-  color: #248a83;
-  text-decoration: none; }
-
 .widget {
   margin-bottom: 4rem; }
+  .widget a {
+    color: #248a83; }
   .widget ul {
     padding-left: 0;
     margin-left: 0; }
 
 .day-of-week {
   font-weight: 700; }
+
+a {
+  text-decoration: none; }
 
 /*--------------------------------------------------------------
 # Content
@@ -689,6 +690,7 @@ a {
   position: relative; }
 
 .entry-title-journal {
+  color: white;
   position: absolute;
   left: 0;
   margin-top: 2.3rem;
@@ -994,3 +996,6 @@ h2 {
   width: 800px;
   margin: 0 auto;
   text-align: center; }
+
+.comments-link a {
+  color: white; }
