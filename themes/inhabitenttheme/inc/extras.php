@@ -61,7 +61,7 @@ function wpdocs_styles_method() {
         $url = CFS() -> get( 'hero_image' ); //E.g. #FF0000
         $custom_css = "
                 .about-hero{
-                        background-image: url({$url});
+                        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url({$url});
 
                 }";
         wp_add_inline_style( 'custom-style', $custom_css );
