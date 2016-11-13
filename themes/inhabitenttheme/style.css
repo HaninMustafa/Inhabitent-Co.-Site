@@ -596,7 +596,23 @@ a {
 
 .widget-area {
   width: 30%;
-  padding-left: 3rem; }
+  padding-left: 3rem;
+  padding: 3rem; }
+  .widget-area p {
+    display: -ms-flexbox;
+    display: flex; }
+  .widget-area i {
+    margin-right: 10px; }
+
+.widget-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+a {
+  color: #248a83;
+  text-decoration: none; }
 
 /*--------------------------------------------------------------
 # Content
@@ -660,10 +676,10 @@ a {
   text-transform: uppercase;
   text-decoration: none; }
 
-.entry-header {
+.entry-header-journal {
   position: relative; }
 
-.entry-title {
+.entry-title-journal {
   position: absolute;
   left: 0;
   margin-top: 2.3rem;
@@ -672,12 +688,14 @@ a {
   top: 0;
   background-color: #248a83;
   text-align: left; }
-  .entry-title a {
+  .entry-title-journal a {
+    text-decoration: none;
+    color: white;
     font-size: 2rem;
     line-height: 1.25;
     text-transform: uppercase; }
 
-.entry-meta {
+.entry-meta-journal {
   position: absolute;
   background-color: #248a83;
   bottom: 6.6px;

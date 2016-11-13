@@ -20,4 +20,24 @@
 .widget-area {
 	width: 30%;
 	padding-left: 3rem;
+	padding: 3rem;
+	p {
+		display: flex;
+	}
+	i {
+		margin-right: 10px;
+
+	}
+}
+
+.widget-title {
+	text-align: left;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+a {
+	color: #248a83;
+	text-decoration: none;
 }

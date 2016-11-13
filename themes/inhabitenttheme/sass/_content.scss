@@ -71,10 +71,11 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
-.entry-header {
+//////////////////////
+.entry-header-journal {
 	position: relative;
 }
-.entry-title {
+.entry-title-journal {
 position: absolute;
 	left:0;
 	margin-top: 2.3rem;
@@ -84,11 +85,13 @@ position: absolute;
 	background-color: #248a83;
 	text-align: left;
 	a {
+		text-decoration: none;
+		color: white;
 	font-size: 2rem;
 	line-height: 1.25;
 	text-transform: uppercase;
 }}
-.entry-meta {
+.entry-meta-journal {
 	position: absolute;
 	background-color: #248a83;
 	bottom: 6.6px;
