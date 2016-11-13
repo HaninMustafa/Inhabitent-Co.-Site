@@ -1,0 +1,33 @@
+.site-main-shop {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.page-header-shop {
+  border-bottom:1px dashed #c8c8c8;
+  text-align: center;
+  margin-bottom: 3rem;
+  h2 {
+    text-transform: uppercase;
+
+  }
+}
+.shop-links {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+width: 30%;
+text-align: center;
+padding-bottom: 3rem;
+margin: 0 auto;
+a{
+  color:#248a83;
+}}
+.product-grid {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-grid-item {
+  border: 1px solid #e1e1e1;
+  max-width: 23%;
+}
