@@ -617,6 +617,9 @@ input.search-field {
     text-align: left;
     font-size: 2rem; }
 
+h2.widgettitle {
+  text-align: left; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/

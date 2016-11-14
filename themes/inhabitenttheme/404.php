@@ -8,8 +8,8 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
+<div class="journal-page">
+	<div id="primary" class="content-area journal-area">
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
@@ -51,5 +51,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>
