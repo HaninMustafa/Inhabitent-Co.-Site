@@ -1,45 +1,28 @@
-# RED Starter
+# Project 4: Inhabitent Theme
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+project 4 in RED Academy was the most challenge so far. We worked for two week to build this custom theme site.
 
-Download me, add me to your `wp-content` directory, rename me, and and start themin'!
+![Inhabitent Theme Image](.themes\inhabitenttheme\images/home-hero.jpg)
 
-## Using with VVV
+##About the Inhabitent Suply Co. Site
 
-To get Browsersync working from within you VVV virtual machine (as configured this theme's `gulpfile.js`), you're going to need a bit of initial configuration.
+This site is for a company that sells traveling products online. this site is a custom site which means the company can change the products, the prices, the about page content, and the journal posts too, without going back to the developer.
 
-### 1. Add port forwarding to your Vagrantfile
+###Technology Used
+- WordPress
+  * Use of Template Hierarchy
+  * Custom Post Types
+  * Custom Taxonomy Types
+  * Using Template Parts
+  * Plugin Building (custom shop hours plugin)
+- Php (in the WP realm)
+- HTML5
+- SASS
+- GULP Build Tool
+- jQuery (WordPress built-in jQuery)
+- GIT for version control.
 
-Just like with ScotchBox, we're going to need to set up port forwarding in our `Vagrantfile` so that `localhost:3000` on your VM can talk to `localhost:3000` on your host machine.
-
-Add the following line under the "Port Forwarding" section in your VVV `Vagrantfile`
-
-```ruby
-config.vm.network "forwarded_port", guest: 3000, host: 3000
-```
-
-Be sure to `vagrant reload` after this!
-
-### 2. Install Gulp inside VVV
-
-Unlike ScotchBox, VVV doesn't come with Gulp pre-installed.
-
-To install Gulp, `vagrant up` then `vagrant ssh` and run the following command:
-
-```bash
-sudo npm install --global gulp-cli
-```
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` inside your theme directory next to install the node modules you'll need for Gulp, etc.
-
-You may have better luck with the package installation if you run `npm install` from your **host** machine (not from within the VM). This means that you will need to have Node installed on your actual computer to do this.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy.
-
-Now you should be able to `vagrant ssh` into your cd into `/vagrant/www/YOUR_SITE_DIR/htdocs/wp-content/themes/YOUR_THEME_DIR` and run `gulp` to get Browsersync up and running.
-
-Note that you will have to manually navigate to `localhost:3000` to see your site (it won't automatically launch in your browser).
+### More on the Inhabitent theme
+We start out theme with the underscore theme starter. we start with building a custom post type for the product that will be sold using the website. we build 4 main pages in this theme. first page is the front page that has a hero image , adventure articles and shopping link categories. another page for the blog posts with several ranked articles. a custom about page, the user can change the hero image and the content of the page. the forth page is for shopping through the whole products.
+## Challenges
+It was really challenge to work with Wordpress. but through this project I learn how important it is to make out websites more dynamic, the user can change and update freely. The famous loop in wordpress was something I really found helpful. through it we only design one post or one comment and the all the design will apply to all the page.
