@@ -241,3 +241,19 @@ input.search-field {
 	background: transparent;
 	outline: none;
 }
+.page-header-search {
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 3rem;
+	padding-bottom: 1rem;
+	h1{
+		line-height: 1.25;
+		font-size: 2.4rem;
+	}
+}
+.entry-header-search {
+text-transform: uppercase;
+h2.entry-title a{
+		color:#248a83;
+		text-align: left;
+		font-size: 2rem;
+	}}

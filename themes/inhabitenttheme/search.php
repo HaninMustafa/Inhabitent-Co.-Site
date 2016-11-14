@@ -6,13 +6,13 @@
  */
 
 get_header(); ?>
-
-	<section id="primary" class="content-area">
+<div class="journal-page">
+	<section id="primary" class="content-area journal-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+			<header class="page-header-search">
 				<h1 class="page-title"><?php printf( esc_html( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
@@ -35,4 +35,5 @@ get_header(); ?>
 	</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

@@ -8,7 +8,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="entry-header-search">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
@@ -20,5 +20,8 @@
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
+		<p>
+			<a href="<?php the_permalink(); ?>" class="read-more">Read more &rarr;	</a>
+		</p>
 	</div><!-- .entry-summary -->
 </article><!-- #post-## -->
