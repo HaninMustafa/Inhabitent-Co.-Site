@@ -14,9 +14,10 @@ display:flex;
   }
 }
 .days-info {
-
+font-weight: 700;
 }
 .footer-item {
+  flex: 0 2 50%;
 margin: 3rem 0;
 h3 {
   color: #d99054;
@@ -31,6 +32,19 @@ h3 {
   color: white;
 }
 }
-.logo img{
+.footer-logo img{
   text-align: right;
+  width: 75%;
+}
+.fa {
+  margin-right: .5rem;
+}
+.contact-info p a{
+  color:white;
+  &:visited{
+    color:white;
+  }
+  &:hover{
+    text-decoration: underline;
+  }
 }

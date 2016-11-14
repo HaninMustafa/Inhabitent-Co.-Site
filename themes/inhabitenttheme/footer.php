@@ -13,12 +13,12 @@
 					<div class="footer-item">
 						<div class="contact-info">
 							<h3>Contact Info</h3>
-							<p><i></i>
+							<p><i class="fa fa-envelope"></i>
 								<a href="mailto:info@inhabitent.com">info@inhabitent.com</a>
 							</p>
 							<p>
-								<i></i>
-								<a href="#">778-456-7891</a>
+								<i class="fa fa-phone"></i>
+								<a href="tel:7784567891">778-456-7891</a>
 							</p>
 							<p>
 								<span><i class="fa fa-facebook-square"></i></span>

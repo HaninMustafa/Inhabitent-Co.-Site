@@ -447,12 +447,18 @@ textarea {
   width: 100%; }
 
 .white-btn {
-  background-color: #248a83;
+  border: 1px solid #fff;
+  color: #fff;
   font-size: .9rem;
   line-height: 1;
   padding: .75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase; }
+  .white-btn:visited {
+    color: white; }
+  .white-btn:hover {
+    background-color: #248A83;
+    border: 0; }
 
 a:visited {
   color: white; }
@@ -1071,7 +1077,8 @@ ul {
   .story-info h3 {
     font-weight: 400; }
 
-.entry-title a {
+h3.entry-title a {
+  font-family: 'merriweather', sans-serif;
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -1230,7 +1237,12 @@ span.meta {
   .footer-item p {
     color: white; }
 
+.days-info {
+  font-weight: 700; }
+
 .footer-item {
+  -ms-flex: 0 2 50%;
+      flex: 0 2 50%;
   margin: 3rem 0; }
   .footer-item h3 {
     color: #d99054; }
@@ -1243,8 +1255,19 @@ span.meta {
     bottom: 1.5rem;
     color: white; }
 
-.logo img {
-  text-align: right; }
+.footer-logo img {
+  text-align: right;
+  width: 75%; }
+
+.fa {
+  margin-right: .5rem; }
+
+.contact-info p a {
+  color: white; }
+  .contact-info p a:visited {
+    color: white; }
+  .contact-info p a:hover {
+    text-decoration: underline; }
 
 .about-hero {
   z-index: -1;
