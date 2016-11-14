@@ -1,6 +1,5 @@
 .site-header {
 	position: fixed;
-	top: 30px;
 	width: 100%;
 	background-color: hsla(0,0%,100%,.85);
 	border-bottom: 1px solid #e1e1e1;
@@ -22,7 +21,6 @@
 
 .tent-logo {
 	position: fixed;
-	top: 30px;
 	width: 50px;
 }
 
@@ -45,5 +43,9 @@ padding: 0 .75rem;
 a {
 	color: #248A83;
 	font-family: 'novecento', sans-serif;
+&:hover{
+	color:#175450;
 }
+}
+
 }

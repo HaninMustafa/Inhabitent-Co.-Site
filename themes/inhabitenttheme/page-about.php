@@ -13,7 +13,7 @@ get_header(); ?>
      <?php while ( have_posts() ) : the_post(); ?>
        <div class="hero-wrap">
        <div class="about-hero" style="linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4))">
-       <?php get_template_part( 'template-parts/content', 'page' ); ?>
+       <?php get_template_part( 'template-parts/content', 'about' ); ?>
      </div>
    </div>
 

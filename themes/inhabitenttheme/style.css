@@ -382,6 +382,13 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
+body, button, input, select, textarea, p {
+  color: #404040;
+  font-family: 'merriweather' ,serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -580,13 +587,15 @@ input#submit.submit {
   background-color: #248a83;
   color: white;
   cursor: pointer;
-  padding: .75% 1.5%;
+  padding: .75rem 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
   border: none;
   border-radius: 0;
   box-shadow: none;
   font-weight: 300; }
+  input#submit.submit:hover {
+    background-color: #1F6E68; }
 
 input.wpcf7-text, .wpcf7-form-control {
   color: #666;
@@ -598,13 +607,15 @@ input.wpcf7-submit {
   background-color: #248a83;
   color: white;
   cursor: pointer;
-  padding: .75% 1.5%;
+  padding: .75rem 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
   border: none;
   border-radius: 0;
   box-shadow: none;
   font-weight: 300; }
+  input.wpcf7-submit:hover {
+    background-color: #1F6E68; }
 
 .search-nav {
   padding-left: 1rem; }
@@ -885,11 +896,17 @@ a {
   margin-bottom: 4.5rem; }
 
 .read-more {
-  border: 1px solid #000;
-  color: #000;
-  padding: .75rem 1.5rem;
+  border: 1px solid black;
+  color: black;
+  font-size: .9rem;
   text-transform: uppercase;
-  text-decoration: none; }
+  padding: .75rem 1.5rem; }
+  .read-more:visited {
+    color: black; }
+  .read-more:hover {
+    color: white;
+    background-color: #248A83;
+    border: 0; }
 
 .entry-header-journal {
   position: relative; }
@@ -907,8 +924,14 @@ a {
   text-transform: uppercase; }
   .entry-title-journal a {
     text-decoration: none;
+    color: white;
+    font-family: 'novecento',sans-serif;
     font-size: 2rem;
     line-height: 1.25; }
+    .entry-title-journal ahover {
+      color: #ACADAD; }
+    .entry-title-journal a:visited {
+      color: white; }
 
 .entry-meta-journal {
   position: absolute;
@@ -917,10 +940,14 @@ a {
   right: 0;
   text-transform: uppercase;
   color: white;
-  padding: .4rem 1.5rem; }
+  padding: .4rem 1.5rem;
+  font-family: 'novecento',sans-serif; }
 
 .wp-post-image {
   width: 100%; }
+
+.entry-footer span a:visited {
+  color: #248A83; }
 
 h1.entry-title {
   color: black; }
@@ -1176,9 +1203,11 @@ span.meta {
   .btn:hover {
     background-color: #154F4B; }
 
+.entry-title-about {
+  color: white; }
+
 .site-header {
   position: fixed;
-  top: 30px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid #e1e1e1;
@@ -1201,7 +1230,6 @@ span.meta {
 
 .tent-logo {
   position: fixed;
-  top: 30px;
   width: 50px; }
 
 .container {
@@ -1221,6 +1249,8 @@ span.meta {
   .menu li a {
     color: #248A83;
     font-family: 'novecento', sans-serif; }
+    .menu li a:hover {
+      color: #175450; }
 
 .site-footer {
   background: url(../../images/dark-wood.png);
@@ -1356,7 +1386,8 @@ h2.entry-title-product {
   padding-right: .3rem;
   margin-bottom: 0;
   text-align: left;
-  line-height: 1.7; }
+  line-height: 1.7;
+  text-transform: capitalize; }
 
 .product-info {
   padding: .75rem 1.5rem; }
@@ -1364,13 +1395,16 @@ h2.entry-title-product {
 .price {
   float: right;
   padding-left: .2rem;
-  background: white; }
+  background: white;
+  color: #404040;
+  font-family: 'merriweather';
+  font-weight: normal; }
 
 .entry-title-product:before {
   float: left;
   width: 0;
   white-space: nowrap;
-  content: "................................         "; }
+  content: "................................"; }
 
 .taxonomy-description {
   margin: 3rem auto; }

@@ -203,13 +203,16 @@ input#submit.submit {
 	background-color: #248a83;
 	color:white;
 	cursor:pointer;
-	padding: .75% 1.5%;
+	padding: .75rem 1.5rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	border:none;
 	border-radius: 0;
 	box-shadow: none;
 	font-weight: 300;
+	&:hover{
+		background-color: #1F6E68;
+	}
 }
 
 input.wpcf7-text, .wpcf7-form-control {
@@ -220,16 +223,19 @@ input.wpcf7-text, .wpcf7-form-control {
 }
 
 input.wpcf7-submit{
-		background-color: #248a83;
+	background-color: #248a83;
 	color:white;
 	cursor:pointer;
-	padding: .75% 1.5%;
+	padding: .75rem 1.5rem;
 	text-transform: uppercase;
 	text-decoration: none;
 	border:none;
 	border-radius: 0;
 	box-shadow: none;
 	font-weight: 300;
+	&:hover{
+		background-color: #1F6E68;
+	}
 }
 /////////////////////////////////////////////search form
 .search-nav {
