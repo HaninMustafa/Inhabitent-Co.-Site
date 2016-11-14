@@ -149,7 +149,26 @@ background-color: #e1e1e1;
   height: 250px;
   position: relative;
 }}
+span.meta {
+  font-size: .75rem;
+  font-family: 'merriweather';
+  color:#404040;
+  font-weight: 200;
+}
+.journal-info-wrapper h3 a{
+  color:#248a83;
+  font-family: 'novecento';
+text-transform: uppercase;
+font-size: 1.3rem;
+font-weight: bold;
+&:hover {
+  color: #175450;
+}
+}
+.journal-info-wrapper {
+  padding: .8rem;
 
+}
 
 // shop-cards
 .shop-cards {
@@ -178,5 +197,22 @@ font-weight: 300;}
 .product-wrap:hover {
   border: 1px solid #d99054;
   border-top: 5px solid #d99054;
+}
+.btn {
+  background-color: #248a83;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'novecento',sans-serif;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:visited {
+      color: #fff;
 
+    }
+    &:hover {
+      background-color: #154F4B;
+    }
 }

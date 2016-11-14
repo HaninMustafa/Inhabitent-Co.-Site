@@ -47,9 +47,9 @@ $journal_posts =  get_posts( $args );?>
    <?php the_post_thumbnail( 'original' ); ?>
  </div>
  <div class="journal-info-wrapper">
-   <span>
+   <span class="meta">
    <?php the_date(); ?>
- </span>/<?php comments_number('0 Comments'); ?>
+ /<?php comments_number('0 Comments'); ?>
    </span>
    <h3 class="entry-title">
      <a href="<?php the_permalink(); ?>">

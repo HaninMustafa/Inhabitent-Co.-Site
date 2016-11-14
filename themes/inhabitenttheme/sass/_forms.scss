@@ -87,6 +87,14 @@ a:visited {
 	font-size: .9rem;
 	text-transform: uppercase;
 	padding: .75rem 1.5rem;
+	&:visited{
+		color: black;
+	}
+	&:hover {
+		color: white;
+		background-color: #248A83;
+		border:0;
+	}
 }
 .comments-area h2 {
 	text-align: left;
