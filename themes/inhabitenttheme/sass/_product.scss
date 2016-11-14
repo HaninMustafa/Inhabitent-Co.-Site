@@ -78,3 +78,33 @@ h2.entry-title-product {
 .taxonomy-description {
   margin: 3rem auto;
 }
+
+/*single product*/
+
+.single-product-article {
+  padding-top: 3rem;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+.single-product-img{
+  width: 300%;
+  margin-right: 3rem;
+img{
+  height: auto;
+  width:100%;
+}
+}
+.single-product-title {
+  text-transform: uppercase;
+  h1{
+    margin-top: 0;
+    color: #d99054;
+    font-size: 2.4rem;
+
+  }
+}
+.single-product-price {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
