@@ -215,3 +215,29 @@ input.wpcf7-submit{
 	box-shadow: none;
 	font-weight: 300;
 }
+/////////////////////////////////////////////search form
+.search-nav {
+	padding-left: 1rem;
+}
+
+form fieldset {
+	border: 0;
+	margin: 0;
+	padding:0;
+
+a{
+	text-decoration: none;
+	i {
+		color: #248a83;
+	}
+}}
+.search-btn {
+	float: left;
+	margin-right: 1.5rem;
+}
+input.search-field {
+	border:0;
+	text-transform: uppercase;
+	background: transparent;
+	outline: none;
+}
