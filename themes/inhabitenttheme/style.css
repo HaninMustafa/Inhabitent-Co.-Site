@@ -562,6 +562,24 @@ input#submit.submit {
   box-shadow: none;
   font-weight: 300; }
 
+input.wpcf7-text, .wpcf7-form-control {
+  color: #666;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  margin-top: 1.6rem; }
+
+input.wpcf7-submit {
+  background-color: #248a83;
+  color: white;
+  cursor: pointer;
+  padding: .75% 1.5%;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 300; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
