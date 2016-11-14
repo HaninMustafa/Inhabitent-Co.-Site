@@ -3,6 +3,17 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+h2 {
+  font-family: 'novecento', sans-serif;;
+  text-transform: uppercase;
+}
+body p{
+  font-family: 'merriweather',serif;;
+  color: #404040;
+font-size: 1rem;
+line-height: 1.75;
+
+}
 // Adventures in front page
 
 .img1 {
@@ -159,5 +170,13 @@ background-color: #e1e1e1;
   }
   p {
     margin: 1.5rem;
-  }
+    color:#404040;
+    font-family: 'merriweather';
+  font-size: 1rem;
+font-weight: 300;}
+}
+.product-wrap:hover {
+  border: 1px solid #d99054;
+  border-top: 5px solid #d99054;
+
 }

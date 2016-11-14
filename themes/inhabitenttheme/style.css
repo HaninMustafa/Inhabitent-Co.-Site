@@ -611,6 +611,7 @@ form fieldset {
   margin-right: 1.5rem; }
 
 input.search-field {
+  font-family: 'novecento',sans-serif;
   border: 0;
   text-transform: uppercase;
   background: transparent;
@@ -979,6 +980,16 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+h2 {
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase; }
+
+body p {
+  font-family: 'merriweather',serif;
+  color: #404040;
+  font-size: 1rem;
+  line-height: 1.75; }
+
 .img1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/canoe-girl-768x512.jpg") center/cover;
   height: 540px; }
@@ -1109,7 +1120,15 @@ h2 {
     height: 70px;
     width: 70px; }
   .product-wrap p {
-    margin: 1.5rem; }
+    margin: 1.5rem;
+    color: #404040;
+    font-family: 'merriweather';
+    font-size: 1rem;
+    font-weight: 300; }
+
+.product-wrap:hover {
+  border: 1px solid #d99054;
+  border-top: 5px solid #d99054; }
 
 .site-header {
   position: fixed;
