@@ -31,14 +31,30 @@ a{
   border: 1px solid #e1e1e1;
   max-width: 23%;
   margin-bottom: 2rem;
+  flex: 0 1 23%;
 }
+
 .img-wrap-product {
   background-color: #e1e1e1;
   height:250px;
+  overflow: hidden;
+  position:relative;
+  max-width: none;
 img{
 height:245px;
-overflow: hidden;}
 }
+.wp-post-image{
+    left: 50%;
+    max-height: 250px;
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%,-52%);
+    transform: translate(-50%,-52%);
+    width: auto;
+}
+}
+
 .entry-title-product{
   display: inline;
   color:black;
@@ -70,6 +86,7 @@ h2.entry-title-product {
   color:#404040;
   font-family: 'merriweather';
   font-weight: normal;
+  padding-left: .15rem;
 }
 
 
