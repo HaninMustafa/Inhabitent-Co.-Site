@@ -42,26 +42,30 @@ overflow: hidden;}
 .entry-title-product{
   display: inline;
   color:black;
-  float: left;
   font-size: 1rem;
   font-weight: 400;
 
 }
+.entry-title-product {
+  background: white;
+
+}
 h2.entry-title-product {
+  letter-spacing: 0;
   margin-top: 0;
   padding-right: .3rem;
   margin-bottom: 0;
-  text-align: left;
   line-height: 1.7;
   text-transform: capitalize;
 }
 .product-info{
   padding: .75rem 1.5rem;
+  overflow: hidden;
+
 
 }
 .price {
   float: right;
-  padding-left: .2rem;
   background: white;
   color:#404040;
   font-family: 'merriweather';
@@ -75,7 +79,7 @@ h2.entry-title-product {
     width: 0;
     white-space: nowrap;
     content:
- "................................"
+ "...................................................."
 }
 
 
