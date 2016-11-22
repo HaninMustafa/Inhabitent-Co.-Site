@@ -1289,8 +1289,7 @@ span.meta {
       color: #175450; }
 
 .site-footer {
-  background: url(../../images/dark-wood.png);
-  height: 500px; }
+  background: url(../../images/dark-wood.png); }
 
 .footer-info {
   display: -ms-flexbox;
@@ -1311,7 +1310,11 @@ span.meta {
       flex: 0 2 50%;
   margin: 3rem 0; }
   .footer-item h3 {
-    color: #d99054; }
+    color: #d99054;
+    text-transform: uppercase;
+    font-family: 'novecento', sans-serif; }
+  .footer-item p {
+    font-family: 'merriweather', serif; }
 
 .site-info {
   text-align: center;
@@ -1319,11 +1322,17 @@ span.meta {
   .site-info p {
     padding: 1.5rem 0;
     bottom: 1.5rem;
-    color: white; }
+    color: white;
+    margin-bottom: 0;
+    font-family: 'novecento'; }
 
-.footer-logo img {
-  text-align: right;
-  width: 75%; }
+.footer-logo a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+  .footer-logo a img {
+    width: 75%; }
 
 .fa {
   margin-right: .5rem; }
