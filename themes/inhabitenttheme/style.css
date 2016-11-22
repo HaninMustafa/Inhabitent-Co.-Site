@@ -1046,6 +1046,10 @@ body p {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/night-sky-768x512.jpg") center/cover;
   height: 270px; }
 
+ul.full-flex {
+  padding-left: 0;
+  margin-left: 0; }
+
 .full-flex {
   display: -ms-flexbox;
   display: flex; }
@@ -1112,8 +1116,34 @@ h3.entry-title {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.75rem;
+    font-size: 3rem;
     font-weight: 400; }
+    h3.entry-title a:hover {
+      color: #ffe5ba; }
+
+.half .entry-title {
+  margin-top: 0; }
+  .half .entry-title a {
+    font-family: 'merriweather', sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.4rem;
+    font-weight: 400; }
+    .half .entry-title a:hover {
+      color: #ffe5ba; }
+
+.quarter .entry-title {
+  margin-top: 0; }
+  .quarter .entry-title a {
+    font-family: 'merriweather', sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 400; }
+    .quarter .entry-title a:hover {
+      color: #ffe5ba; }
 
 h2 {
   font-size: 2.4rem;
