@@ -239,8 +239,8 @@ th {
 
 @font-face {
   font-family: 'merriweather';
-  src: url("../../fonts/merriweather/merriweather-light-webfont.eot");
-  src: url("../../fonts/merriweather/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather/merriweather-light-webfont.woff2") format("woff2"), url("../../fonts/merriweather/merriweather-light-webfont.woff") format("woff"), url("../../fonts/merriweather/merriweather-light-webfont.ttf") format("truetype"), url("../../fonts/merriweather/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  src: url("../../fonts/merriweather-light-webfont.eot");
+  src: url("../../fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/merriweather-light-webfont.woff2") format("woff2"), url("../../fonts/merriweather-light-webfont.woff") format("woff"), url("../../fonts/merriweather-light-webfont.ttf") format("truetype"), url("../../fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1173,12 +1173,14 @@ span.meta {
   border: 1px solid #e1e1e1;
   border-top: 5px solid #e1e1e1;
   -ms-flex: 0 1 23.5%;
-      flex: 0 1 23.5%; }
+      flex: 0 1 23.5%;
+  padding: .75rem; }
   .product-wrap img {
     height: 70px;
     width: 70px; }
   .product-wrap p {
-    margin: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     color: #404040;
     font-family: 'merriweather';
     font-size: 1rem;
@@ -1201,7 +1203,8 @@ span.meta {
   .btn:visited {
     color: #fff; }
   .btn:hover {
-    background-color: #154F4B; }
+    background-color: #154F4B;
+    color: #fff; }
 
 .entry-title-about {
   color: white; }
