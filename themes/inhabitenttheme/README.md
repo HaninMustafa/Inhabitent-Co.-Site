@@ -1,7 +1,7 @@
 # Project 4: Inhabitent Theme
 
 project 4 in RED Academy was the most challenge so far. We worked for two week to build this custom theme site.
-![Alt text](/relative//inhabitenttheme/images/canoe-girl-768x512.jpg?raw=true "inhabitent site")
+![Inhabitent Theme Image](./images/canoe-girl-768x512.jpg)
 ##About the Inhabitent Suply Co. Site
 
 This site is for a company that sells traveling products online. this site is a custom site which means the company can change the products, the prices, the about page content, and the journal posts too, without going back to the developer.
