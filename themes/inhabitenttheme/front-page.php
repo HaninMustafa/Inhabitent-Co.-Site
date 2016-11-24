@@ -30,7 +30,7 @@ get_header(); ?>
     </div>
     </section>
 
-<!-- /**adventure Loop*/ -->
+<!-- /**journal Loop*/ -->
 
 <section class="latest-journal">
   <div class="container">
@@ -116,8 +116,10 @@ $journal_posts =  get_posts( $args );?>
 </ul>
 </ul>
 </ul>
+
 <p class="see-more">
-  <a class="btn" href="#">More Adventures</a>
+  	<a class="btn" href="<?php echo get_post_type_archive_link( 'adventure' ); ?>">
+  More Adventures</a>
 </p>
 </section>
 

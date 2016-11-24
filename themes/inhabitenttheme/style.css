@@ -171,11 +171,6 @@ button[disabled],
 html input[disabled] {
   cursor: default; }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
 input {
   line-height: normal; }
 
@@ -184,17 +179,9 @@ input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box; }
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
 
 fieldset {
   border: 1px solid #c0c0c0;
@@ -538,7 +525,11 @@ a:visited {
   letter-spacing: 2px; }
 
 .logged-in-as a {
-  display: none; }
+  color: #248a83; }
+  .logged-in-as a:hover {
+    color: black; }
+  .logged-in-as a:visited {
+    color: #248a83; }
 
 .comment_notes_before p {
   display: block; }
@@ -1371,6 +1362,14 @@ span.meta {
     line-height: 1.75;
     font-size: 1rem;
     text-align: left; }
+  .about-content .title {
+    text-transform: uppercase;
+    font-family: 'novecento', sans-serif; }
+
+.entry-title-about {
+  text-transform: uppercase;
+  font-family: 'novecento', sans-serif;
+  font-size: 3rem; }
 
 .comments-link a {
   color: white; }
@@ -1384,7 +1383,11 @@ span.meta {
   text-align: center;
   margin-bottom: 3rem; }
   .page-header-shop h2 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem; }
 
 .shop-links {
   display: -ms-flexbox;
@@ -1397,7 +1400,8 @@ span.meta {
   padding-bottom: 3rem;
   margin: 0 auto; }
   .shop-links a {
-    color: #248a83; }
+    color: #248a83;
+    font-family: 'novecento'; }
 
 .product-grid {
   display: -ms-flexbox;
@@ -1446,7 +1450,8 @@ h2.entry-title-product {
   padding-right: .3rem;
   margin-bottom: 0;
   line-height: 1.7;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-size: .91rem; }
 
 .product-info {
   padding: .75rem 1.5rem;
@@ -1458,7 +1463,8 @@ h2.entry-title-product {
   color: #404040;
   font-family: 'merriweather';
   font-weight: normal;
-  padding-left: .15rem; }
+  padding-left: .15rem;
+  font-size: 1rem; }
 
 .entry-title-product:before {
   float: left;
