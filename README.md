@@ -2,7 +2,7 @@
 
 project 4 in RED Academy was the most challenge so far. We worked for two week to build this custom theme site.
 
-![Inhabitent Theme Image](.themes\inhabitenttheme\images/home-hero.jpg)
+![Inhabitent Theme Image](./themes/inhabitenttheme/images/home-hero.jpg)
 
 ##About the Inhabitent Suply Co. Site
 
